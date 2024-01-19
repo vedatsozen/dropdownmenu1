@@ -1,0 +1,44 @@
+html {
+    user-select: none;
+}
+
+body {
+    background:linear-gradient(to right, green, limegreen);
+}
+
+
+li {
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    letter-spacing: 4px;
+ 
+}
+
+.homealtli,.servicesaltli,.referencesaltli {
+    padding: 20px;
+}
+
+li:hover {
+    background-color: green;
+}
+
+img.arrow.rotate {
+    transform: rotate(180deg);
+}
+
+#home, #references, #services {
+    margin: auto;
+    margin-top: 0px !important;
+    padding: 20px;
+}
+
+@media only screen and (max-width:480px) {
+
+li {
+    font-size:5px !important;
+}
+}
